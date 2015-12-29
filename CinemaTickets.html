@@ -1,0 +1,58 @@
+<!Doctype html>
+<html lang = "en">
+<head> 
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="CinemaTickets.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
+	<script src="CinemaTickets.js"></script>
+
+	<title>
+		Cinema Tickets
+	</title>
+</head>
+<body>
+	<div class="container container-table">
+		<div class="row vertical-center-row">
+			<div class="text-center col-md-4 col-md-offset-4"><h2>Cinema Tickets</h2></div>
+			</br>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Film</th>
+						<th>Quantity</th>
+						<th>Price</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Star Wars 3d</td>
+						<td><input type="number" id="firstQuantity" value = "0"</td>
+						<td id="firstPrice">£17.60</td>
+					</tr>
+					<tr>
+						<td>Bridge of Spies</td>
+						<td><input type="number" id="secondQuantity" value = "0"</td>
+						<td id="secondPrice">£14.30</td>
+					</tr>
+					<tr>
+						<td>The Peanuts Movie</td>
+						<td><input type="number" id="thirdQuantity" value = "0"</td>
+						<td id="thirdPrice">£12.10</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><b>Total:</b></td>
+						<td id="total"></td>
+						<td><button id="button">Show Total</button></td>
+					</tr>
+				</tbody>
+			</table>
+	    </div>
+	</div>
+</body>	
+

@@ -1,0 +1,23 @@
+.table{
+	border-style: solid;
+	background-color: pink;
+}
+
+/* .borderless tbody tr td, .borderless tbody tr th, .borderless thead tr th {
+    border: none !important;
+} */
+td, th{
+    border: none !important;
+}
+
+h2{
+	text-align: left;
+}
+
+#total{
+	font-weight: bold;
+}
+
+#button{
+	border-radius: 20px;
+}
